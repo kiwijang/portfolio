@@ -13,7 +13,7 @@ function padZero(num, size) {
 
 for (var i = 0; i <= 75; i++) {
   var img = new Image();
-  img.src = 'portfolio/img/flag/flag_' + padZero(i, 5) + '.png';
+  img.src = 'img/flag/flag_' + padZero(i, 5) + '.png';
   imageArray.push(img);
 }
 ctx.drawImage(imageArray[0], 0, 0);
