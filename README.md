@@ -12,7 +12,7 @@ https://github.com/soulwire/sketch.js
 
 ## 技術
 
-- goolefont
+- googlefont
 - 使用 rollup 打包 js (terser 壓縮和打亂、babel、nodeResolve、commonjs)
 
 babel 設定:
