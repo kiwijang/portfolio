@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-body {
+    background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+}
+.bg-body2 {
+    width: 100%;
+    height: 100%;
+    border: 40px solid black;
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+    pointer-events: none;
+}
+
+.tag {
+    font-size: 20px;
+    color: white;
+    border-radius: 50px;
+    padding: 4px 12px;
+    background-image: linear-gradient(-20deg, #616161 0%, #9bc5c3 100%);
+}
+
+.showbox {
+    display: block;
+    -webkit-box-shadow: 5px 5px 2px 0px #000;
+    -moz-box-shadow: 5px 5px 2px 0px #000;
+    box-shadow: 5px 5px 2px 0px #000;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.showbox:hover {
+    -webkit-box-shadow: 8px 10px 5px 0px #000;
+    -moz-box-shadow: 8px 10px 5px 0px #000;
+    box-shadow: 8px 10px 5px 0px #000;
+    transform: translateY(-10px);
+    transition: 0.2s;
+}
+
+.showbox-wrap {
+    background-image: linear-gradient(to right, #3ab5b0 0%, #3d99be 31%, #56317a 100%);
+}
+
+.title {
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: 700;
+    @apply tracking-wide;
+}
+
+.rotate-ani {
+    animation: rotate 8s linear 0s infinite;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}

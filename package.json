@@ -1,0 +1,32 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "my portfolio 2023",
+  "main": "bundle.js",
+  "type": "module",
+  "scripts": {
+    "rollup": "rollup ./js/main.js --file ./js/bundle.js --format iife",
+    "rollupc": "rollup -c rollup.config.js",
+    "tailwind": "npx tailwindcss -i ./css/main.css -o ./css/output.css --watch"
+  },
+  "author": "naomi",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.21.0",
+    "@babel/core": "^7.21.4",
+    "@babel/preset-env": "^7.21.4",
+    "eslint": "^8.38.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^24.0.1",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "core-js": "^3.30.0"
+  }
+}

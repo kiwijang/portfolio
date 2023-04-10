@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>naomi protfolio</title>
+    <meta name="description" content="~2023 歷程回顧" />
+    <meta property="og:title" content="作品集" />
+    <meta property="og:type" content="website" />
+    <meta property="og:description" content="~2023 歷程回顧" />
+    <meta property="og:image" content="./img/bg-1x.jpg" />
+    <meta property="og:url" content="https://protfolio-kiwinaomi.com" />
+    <meta name="twitter:card" content="./img/bg-1x.jpg" />
+    <link href="css/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-body md:m-10 relative">
+    <div class="bg-body2 hidden md:block md:-mx-10 pointer-events-none"></div>
+
+    <div class="flex justify-center z-50">
+      <div class="flex justify-center flex-col">
+        <article
+          class="h-[900px] flex justify-center items-center relative container overflow-hidden tophidden:hidden mx-auto"
+        >
+          <canvas
+            id="myCanvas"
+            class="absolute -top-72 scale-90 pointer-events-none"
+            height="1080"
+            width="1920"
+          ></canvas>
+          <div class="absolute top-0 pointer-events-none">
+            <div class="scale-50 space-y-5">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="511.81"
+                height="229.23"
+                viewBox="0 0 511.81 229.23"
+              >
+                <path
+                  d="M469.88,329.51l67.52-.06c-3.52,8.3-6.88,15.75-9.53,21.45a37.68,37.68,0,0,1-12.39-14.3H462.24a78.91,78.91,0,0,0,8.8,31.84c-15.28,19.44-28.91,18.39-30,18.25l-8.13,41.42c16-3.91,42-8.13,61.61-29.34a165.15,165.15,0,0,0,40.05,27.48H572.5l8.34-59.19c-2.9-.56-6.31-1.1-10-1.73A310.46,310.46,0,0,0,588,327.71h0c1.86-5.08,3.49-10.14,4.75-15h-.09c.13-.59.25-1.19.34-1.81l1.74-12.73-118.51.18Q473.08,313.91,469.88,329.51Z"
+                  transform="translate(-348.31 -198.88)"
+                />
+                <polygon
+                  points="109.13 32 25.54 32.05 21.27 72.8 104.87 72.75 109.13 32"
+                />
+                <polygon
+                  points="101.5 86.32 17.9 86.41 13.61 119.76 97.21 119.66 101.5 86.32"
+                />
+                <path
+                  d="M407.46,330c-27,49.55-48.59,46.16-51,46.2l-8.13,50.87c23.12-5.63,76.76-26.12,97.29-97Z"
+                  transform="translate(-348.31 -198.88)"
+                />
+                <path
+                  d="M605.17,215.51h0q.71-5.06,1.39-10.11l-76.12.08c.69-2.23,1.33-4.43,1.89-6.6H483c-10.07,25.94-21.81,49.71-21.81,49.71l-3.76,25.82h39a392.38,392.38,0,0,0,21.18-37.72h31.53c-4.3,9.93-8.2,18.3-10.6,23.35L514.41,260l4.26,31,13.67.05V291h39s6.78-10.38,14.65-25c5.71-10.61,11.49-21.48,16.82-36.58a34.37,34.37,0,0,0,1.69-9.11l.66-4.82Z"
+                  transform="translate(-348.31 -198.88)"
+                />
+                <path
+                  d="M706.12,245.47l149.7-.07,4.3-31.28-148.66.13V200.57H672.88v13.71l-30.58,0-6.39,31.21h28.16C643,278.2,630.91,274.36,622.31,276l-8.13,50.87a133.23,133.23,0,0,0,34.39-13.83L629.28,426.21h31.1l13.67-21.28c1-6.16,2.18-12.86,3.39-20l127.34-.54L803,397.13l-30.59-.1,4.26,31,22,.08v0h25.92L836,406.57c4.33-31.12,10.64-75.8,16.48-117.25h.12l4.3-31.28-156.8.73C702.21,254.59,704.24,250.17,706.12,245.47ZM682.76,353.76c1.08-6.28,2.18-12.7,3.29-19.19l125.8-.53-2.69,19.13Zm133.48-51-124.85.58q1.15-6.72,2.29-13.37l124.42-.53Z"
+                  transform="translate(-348.31 -198.88)"
+                />
+              </svg>
+              <svg
+                width="1239.86"
+                height="232.29"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 1239.86 232.29"
+              >
+                <path
+                  d="M1231.39,522.38a148.94,148.94,0,0,0,6.32-13.79l149.71-.07,4.29-31.28-148.65.12V463.69h-38.59v13.7l-30.58,0-6.39,31.2h28.17c-21.13,32.7-33.17,28.86-41.77,30.53L1145.77,590A133.2,133.2,0,0,0,1189,570.66l-16.86,118.66H1198l11.39-21.27c.87-6.16,1.82-12.87,2.83-20l124.14-.52-1.78,12.69-29-.1,4.25,31,20.43.07v0h25.92l11.39-21.53c4.32-31,10.6-75.45,16.42-116.76h0l.82-6c.52-3.72,1-7.42,1.56-11.06h0l2-14.24Zm-14.73,94.48c.9-6.28,1.81-12.69,2.74-19.18l124-.52-2.68,19.13Zm131.17-51-124,.58c.62-4.31,1.23-8.61,1.84-12.87l123.94-.52Z"
+                  transform="translate(-321.55 -460.89)"
+                />
+                <path
+                  d="M568.23,501.05l3.31-26.24-71.66.09,1.52-11.09-83.6.11L416.28,475l-65.56.08-2.41,26.18h.2L321.55,691h25.93l11.39-21.27c6.31-44.82,16.84-118.12,24-168.48l41,0-1.11,7.87-19.6.05-2.65,15.64,5.48,0c-9.24,15.71-14.29,14-17.83,14.65L385,558.9c8.09-2,25.91-8.69,35-30.48l-4.66,32.74h3.38a22.58,22.58,0,0,1-4.35,4.74l-29.9,0-.66,7.13-7.95,56h11l0,.16,26.17,0c-15.25,15.88-35.62,20.06-42.81,21.45l-6.46,40.43c19.22-4.68,64.24-9.5,85.51-60.57h1.34c5.95,35.79,23.36,59.79,23.36,59.79h75.33l2.85-22.43c-7.56-1.07-20-2.75-32.67-7.56l13.64,0c1,2.35,1.7,3.62,1.7,3.62H547.5l2.78-19.77c-5.86-1.13-6.55-4-10.46-12.1h-13A92.14,92.14,0,0,0,528,642.17l-22.12.09c.58-4.13,1.21-8.55,1.86-13.13h6.18l0,.12h17.52l7.7-14.38c1.79-12.74,4.09-28.88,6.51-45.84h-.41l.41-3.29-104.16.13a30.18,30.18,0,0,0,3.56-7h14.36l3.26-23.1c-6.08-1.17-7.41-4-10.81-11.18l9.7,0L464.14,509,438,509c.37-2.63.75-5.25,1.12-7.85l70.05-.07L508,509.05l-24.42.06-2.65,15.64,15.45,0c-9.24,15.73-14.3,14-17.84,14.67l-3.12,19.52a50.48,50.48,0,0,0,28.12-18.44l-2.94,20.7h11.49l5-9.43c1.08-7.6,2.42-17.06,3.85-27.08h.36c1.76,21.06,9.16,34.25,9.16,34.25h14.8l3.26-23.1c-6.09-1.17-7.41-4-10.82-11.19h4.18L544.58,509l-21.36.05c.38-2.65.76-5.3,1.13-7.92ZM439.65,590.92l-35.22,0q.4-2.9.84-5.86h13l.18-.09,22.29,0Zm39.22-6,41.28,0-.84,5.91-41.56,0C478.12,588.93,478.49,587,478.87,585Zm-42.33,22.47-1,5.29-34.2,0q.36-2.57.75-5.3ZM490.3,640.8a57.87,57.87,0,0,1-7.77-11.64H492Zm-16.64-28.14,1-5.28,42.31,0-.75,5.27Zm-38.14-86.53a95.77,95.77,0,0,0,8,30.77H429.11l2.77-5.17C432.9,544.5,434.17,535.6,435.52,526.13Z"
+                  transform="translate(-321.55 -460.89)"
+                />
+                <polygon
+                  points="375.25 27.98 291.65 28.06 287.37 63.42 370.96 63.34 375.25 27.98"
+                />
+                <polygon
+                  points="367.62 82.78 284.02 82.87 279.73 116.73 363.33 116.64 367.62 82.78"
+                />
+                <path
+                  d="M646.82,588.46c-27,49.55-41.24,44.31-51,46.2l-8.13,50.87c23.12-5.64,76.75-26.12,97.29-97Z"
+                  transform="translate(-321.55 -460.89)"
+                />
+                <path
+                  d="M753.58,581l71.74-.14,4.41-31.28-49.7.09q1-7,2.09-14.78l41.89,0,4.1-31.29-41.54,0c2-13.84,4-28.31,6.1-42.73H758.36l-6.07,42.76-38.26,0L709.93,535l37.91,0-2.1,14.82-50.63.1-4.61,31.29,25.56,0c-12.53,39.21-35.1,47.79-44,49.51l-8.13,50.87c.77-.19,1.58-.42,2.41-.68l108.34-.17c2.22,5,3.72,7.7,3.72,7.7h34l7.46-53c-15.73-3-17.57-10.75-28-32.46H756.9a241.57,241.57,0,0,0,5.43,39.44l-44.09.07A193.75,193.75,0,0,0,753.58,581Z"
+                  transform="translate(-321.55 -460.89)"
+                />
+                <path
+                  d="M1107.13,602.19c3.46-23.15,12.88-96.73,17.63-128h-47.65v0l-134.65.26c0-.09,0-.19,0-.29H894.84L874.2,630.56h29c-12.45,12.3-20.71,10.51-27.09,11.74L868,693.17a131.3,131.3,0,0,0,84.46-65.43l91.53-.18c5.81,39.23,19.22,63.14,19.22,63.14h34l7.46-53c-10.64-2.05-14.92-6.26-19.82-15.48h10.91Zm-35.66-87.62-10.11,72.59-133.57.26c2.63-20.38,6.1-48.11,9.26-72.59Z"
+                  transform="translate(-321.55 -460.89)"
+                />
+                <rect x="1110.49" y="203.62" width="23.72" height="23.72" />
+                <rect x="1163.32" y="203.62" width="23.72" height="23.72" />
+                <rect x="1216.14" y="203.62" width="23.72" height="23.72" />
+              </svg>
+            </div>
+          </div>
+          <img
+            class="absolute h-20 left-10 top-10 rotate-ani"
+            src="img/star/big-star.svg"
+            alt="big-star"
+          />
+          <div class="absolute w-20 h-20 right-0 top-72">
+            <img
+              class="absolute h-14 right-0 bottom-0 rotate-ani"
+              src="img/star/orange-star.svg"
+              alt="orange-star"
+            />
+            <img
+              class="absolute h-8 right-16 bottom-11 rotate-ani"
+              src="img/star/green-star.svg"
+              alt="green-star"
+            />
+          </div>
+          <!-- tags -->
+          <div class="flex space-x-5">
+            <h1 class="line-through tag inline-block">#少女</h1>
+            <h1 class="tag inline-block">#Angular</h1>
+            <h1 class="tag inline-block">#CSharp</h1>
+          </div>
+
+          <div class="absolute bottom-32 w-32 h-32 rotate-ani">
+            <img src="img/line.svg" alt="line" />
+          </div>
+        </article>
+
+        <article class="p-20 hidden topMdHidden:block topLghidden:hidden">
+          <img src="img/md.svg" alt="md" />
+          <!-- tags -->
+          <div class="flex flex-wrap justify-center mx-auto my-5">
+            <h1 class="line-through tag inline-block mr-5 mt-5">#少女</h1>
+            <h1 class="tag inline-block mr-5 mt-5">#Angular</h1>
+            <h1 class="tag inline-block mr-5 mt-5">#CSharp</h1>
+          </div>
+        </article>
+        <article class="p-5 topSmHidden:block topMdHidden:hidden hidden">
+          <img src="img/sm.svg" alt="md" />
+          <!-- tags -->
+          <div class="flex flex-wrap flex-col justify-center my-5">
+            <h1 class="line-through tag inline-block mt-5 text-center">
+              #少女
+            </h1>
+            <h1 class="tag inline-block mt-5 text-center">#Angular</h1>
+            <h1 class="tag inline-block mt-5 text-center">#CSharp</h1>
+          </div>
+        </article>
+
+        <!-- stars -->
+        <div class="flex justify-center my-5">
+          <img
+            class="w-20 right-16 bottom-11"
+            src="img/star/stars.svg"
+            alt="stars"
+          />
+        </div>
+
+        <article
+          class="showbox-wrap mx-auto pt-5 pb-16 px-10 space-y-6 md:rounded-r-full"
+        >
+          <div>
+            <div class="py-7 title text-2xl flex items-center">
+              <img
+                src="img/title.svg"
+                alt="title"
+                class="ml-1 h-6 w-6 inline-block"
+              />元件與網頁
+            </div>
+            <div class="flex flex-wrap md:space-x-5 space-y-5 md:space-y-0">
+              <!--  vue + nx 元件開發 -->
+              <div class="flex flex-col md:w-60 w-full">
+                <a
+                  class="showbox h-72 md:h-36 md:w-60 w-full"
+                  href=""
+                  target="_blank"
+                >
+                  <!-- <img
+                    src=""
+                    alt="pending"
+                    class="h-72 md:h-36 md:w-60 w-full object-cover"
+                  /> -->
+                </a>
+                <div
+                  class="text-sm p-4 mt-3 md:m-4 bg-white bg-opacity-50 text-gray-700 tracking-wide rounded"
+                >
+                  vue 元件開發。<br />
+                  使用 Nx monorepo 架構、vue3、vite。<br />
+
+                  <div class="block mt-3">
+                    <a
+                      href=""
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img
+                        src="img/github-mark.svg"
+                        alt="github"
+                        class="w-6 h-6"
+                      />
+                    </a>
+                    <a
+                      href=""
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img src="img/link.svg" alt="link" class="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!--  這個網站 -->
+              <div class="flex flex-col md:w-60 w-full">
+                <a
+                  class="showbox h-72 md:h-36 md:w-60 w-full"
+                  href=""
+                  target="_blank"
+                >
+                  <img
+                    src="/img/resume.jpg"
+                    alt="resume"
+                    class="h-72 md:h-36 md:w-60 w-full object-cover"
+                  />
+                </a>
+                <div
+                  class="text-sm p-4 mt-3 md:m-4 bg-white bg-opacity-50 text-gray-700 tracking-wide rounded"
+                >
+                  作品集網站。<br />
+                  使用 canvas、tailwind、rollup、babel 製作。<br />
+
+                  <div class="block mt-3">
+                    <a
+                      href=""
+                      target="_self"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img
+                        src="img/github-mark.svg"
+                        alt="github"
+                        class="w-6 h-6"
+                      />
+                    </a>
+                    <a
+                      href=""
+                      target="_self"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img src="img/link.svg" alt="link" class="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- <div class="h-72 md:h-36 w-48 bg-gray-400 showbox">web socket</div>
+              <div class="h-72 md:h-36 w-48 bg-gray-400 showbox">webGL</div> -->
+            </div>
+          </div>
+
+          <div>
+            <div class="py-7 title text-2xl flex items-center">
+              <img
+                src="img/title.svg"
+                alt="title"
+                class="ml-1 h-6 w-6 inline-block"
+              />前後端與資料庫
+            </div>
+            <div class="flex flex-wrap md:space-x-5 space-y-5 md:space-y-0">
+              <!-- php 留言板 -->
+              <div class="flex flex-col md:w-60 w-full">
+                <a
+                  class="showbox h-72 md:h-36 md:w-60 w-full"
+                  href="http://mentor-program.co/mtr04group1/naomi/hw1/index.php"
+                  target="_blank"
+                >
+                  <img
+                    src="/img/留言板.jpg"
+                    alt="留言板"
+                    class="h-72 md:h-36 md:w-60 w-full object-cover"
+                  />
+                </a>
+                <div
+                  class="text-sm p-4 mt-3 md:m-4 bg-white bg-opacity-50 text-gray-700 tracking-wide rounded"
+                >
+                  php 留言板，有前後台功能。<br />
+                  管理員可以 role-base 設定帳號的功能。(詳情請看 github)<br />
+                  使用 php、mysql。
+
+                  <div class="block mt-3">
+                    <a
+                      href="https://github.com/kiwijang/2020_msgboard"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img
+                        src="img/github-mark.svg"
+                        alt="github"
+                        class="w-6 h-6"
+                      />
+                    </a>
+                    <a
+                      href="http://mentor-program.co/mtr04group1/naomi/hw1/index.php"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img src="img/link.svg" alt="link" class="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- php 部落格 -->
+              <div class="flex flex-col md:w-60 w-full">
+                <a
+                  class="showbox h-72 md:h-36 md:w-60 w-full"
+                  href="http://mentor-program.co/mtr04group1/naomi/hw2/index.php"
+                  target="_blank"
+                >
+                  <img
+                    src="/img/blog.jpg"
+                    alt="blog"
+                    class="h-72 md:h-36 md:w-60 w-full object-cover"
+                  />
+                </a>
+                <div
+                  class="text-sm p-4 mt-3 md:m-4 bg-white bg-opacity-50 text-gray-700 tracking-wide rounded"
+                >
+                  php 部落格，有前後台功能。<br />
+                  使用 php、mysql、照設計稿切圖製成。
+
+                  <div class="block mt-3">
+                    <a
+                      href="http://mentor-program.co/mtr04group1/naomi/hw2/index.php"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img src="img/link.svg" alt="link" class="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- asp.net mvc + jquery 採購系統 -->
+              <div class="flex flex-col md:w-60 w-full">
+                <div class="showbox h-auto md:h-36 md:w-60 w-full bg-black">
+                  <video class="w-full" poster="/img/b2b.jpg" controls>
+                    <source src="/img/採購系統.mp4" type="video/mp4" />
+                    Your browser does not support HTML video.
+                  </video>
+                </div>
+                <div
+                  class="text-sm p-4 mt-3 md:m-4 bg-white bg-opacity-50 text-gray-700 tracking-wide rounded"
+                >
+                  B2B 採購系統，資策會結業組作業，<br />以 ASP.NET Identity code
+                  first 產生 db 並製作會員登入、忘記密碼、雙因素驗證。<br />
+                  使用 asp.net mvc + sql server、jquery 製成。
+
+                  <div class="block mt-3">
+                    <a
+                      href="https://github.com/MSIT123ERPProject/PMSAWebMVC"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img
+                        src="img/github-mark.svg"
+                        alt="github"
+                        class="w-6 h-6"
+                      />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="py-7 title text-2xl flex items-center">
+              <img
+                src="img/title.svg"
+                alt="title"
+                class="ml-1 h-6 w-6 inline-block"
+              />其他
+            </div>
+            <div class="flex flex-wrap md:space-x-5 space-y-5 md:space-y-0">
+              <!-- js2019 -->
+              <div class="flex flex-col md:w-60 w-full">
+                <a
+                  class="showbox h-72 md:h-36 md:w-60 w-full"
+                  href="https://kiwijang.github.io/js2019/"
+                  target="_blank"
+                >
+                  <img
+                    src="/img/js2019.jpg"
+                    alt="js2019"
+                    class="h-72 md:h-36 md:w-60 w-full object-cover"
+                  />
+                </a>
+                <div
+                  class="text-sm p-4 mt-3 md:m-4 bg-white bg-opacity-50 text-gray-700 tracking-wide rounded"
+                >
+                  九九乘法表、表單驗證、評點製作、廣告輪播、製作日曆。<br />
+                  使用香草 js、css、html。
+
+                  <div class="block mt-3">
+                    <a
+                      href="https://github.com/kiwijang/js2019"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img
+                        src="img/github-mark.svg"
+                        alt="github"
+                        class="w-6 h-6"
+                      />
+                    </a>
+                    <a
+                      href="https://kiwijang.github.io/js2019/"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img src="img/link.svg" alt="link" class="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- d3 -->
+              <div class="flex flex-col md:w-60 w-full">
+                <a
+                  class="showbox h-72 md:h-36 md:w-60 w-full"
+                  href="https://kiwijang.github.io/D3_HW-06/"
+                  target="_blank"
+                >
+                  <img
+                    src="/img/d3.jpg"
+                    alt="d3"
+                    class="h-72 md:h-36 md:w-60 w-full object-cover"
+                  />
+                </a>
+                <div
+                  class="text-sm p-4 mt-3 md:m-4 bg-white bg-opacity-50 text-gray-700 tracking-wide rounded"
+                >
+                  2014-2015 臺灣新年數鳥嘉年華/樣區圓+鳥分布。<br />
+                  使用 d3.js 製作。
+
+                  <div class="block mt-3">
+                    <a
+                      href="https://github.com/kiwijang/D3_HW-06"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img
+                        src="img/github-mark.svg"
+                        alt="github"
+                        class="w-6 h-6"
+                      />
+                    </a>
+                    <a
+                      href="https://kiwijang.github.io/D3_HW-06/"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img src="img/link.svg" alt="link" class="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- 動物靈魂 -->
+              <div class="flex flex-col md:w-60 w-full">
+                <a
+                  class="showbox h-72 md:h-36 md:w-60 w-full"
+                  href="https://kiwijang.github.io/testgame/"
+                  target="_blank"
+                >
+                  <img
+                    src="/img/lol.jpg"
+                    alt="lol-test"
+                    class="h-72 md:h-36 md:w-60 w-full object-cover"
+                  />
+                </a>
+                <div
+                  class="text-sm p-4 mt-3 md:m-4 bg-white bg-opacity-50 text-gray-700 tracking-wide rounded"
+                >
+                  你的動物靈魂是什麼? 心理測驗。<br />
+                  使用 sass、pug、jquery 製作。
+
+                  <div class="block mt-3">
+                    <a
+                      href="https://github.com/kiwijang/testgame"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img
+                        src="img/github-mark.svg"
+                        alt="github"
+                        class="w-6 h-6"
+                      />
+                    </a>
+                    <a
+                      href="https://kiwijang.github.io/testgame/"
+                      target="_blank"
+                      class="cursor-pointer hover:opacity-70 inline-block bg-white p-1 rounded-3xl"
+                    >
+                      <img src="img/link.svg" alt="link" class="w-6 h-6" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- stars -->
+        <div class="flex justify-center my-5">
+          <img
+            class="w-20 right-16 bottom-11"
+            src="img/star/stars.svg"
+            alt="stars"
+          />
+        </div>
+
+        <article class="p-5 md:m-7">
+          <div class="py-7 title text-2xl flex items-center">
+            <img
+              src="img/title.svg"
+              alt="title"
+              class="ml-1 h-6 w-6 inline-block"
+            />關於我
+          </div>
+
+          <div
+            class="flex flex-col md:flex-row justify-between tracking-widest"
+          >
+            <div
+              class="rounded-2xl rounded-b-none overflow-hidden md:hidden block"
+            >
+              <img
+                src="img/forest.jpg"
+                alt="forest"
+                class="object-cover h-full"
+              />
+            </div>
+            <div
+              class="bg-white rounded-2xl rounded-t-none md:rounded-tl-2xl md:rounded-r-none md:max-w-md p-8 pl-10"
+            >
+              <div>嗨，您好。我是 naomi。網頁工程師。</div>
+              <div>
+                畢業於<a
+                  href="https://vcd.ntua.edu.tw/"
+                  target="_blank"
+                  class="inline-flex justify-center items-center text-yellow-600 underline underline-offset-2 hover:text-yellow-900 font-bold"
+                  ><span>國立臺灣藝術大學視覺傳達設計學系</span
+                  ><img
+                    src="img/goto.svg"
+                    alt="goto"
+                    class="ml-1 h-4 w-4 inline-block" /></a
+                >，主修平面設計。<br />Adobe Illustrator、Photoshop
+                是大學四年最常用的軟體、另有 Adobe AfterEffect、攝影、印刷。<br />
+                <br />
+                從 Dreamweaver 接觸網頁設計，<br />
+                後來利用圖書館、網路各種資源和台大資訊訓練班入門
+                html、js、css、php、apache、mysql。<br />
+                <br />
+                在一次工讀經驗中，才知道有個程式語言叫做
+                c#，工讀時與職員聊天，她跟我說可以報名資策會。<br />
+                借了好幾本書來看，還是搞不太懂 c#，種種考量後去了資策會 c#
+                應用程式設計師養成班。<br />
+                <br />
+                工作主要使用 asp.net webapi + sql server 撰寫後端、angular
+                撰寫前端、最近考到 az-900 雲端證照。<br />
+                <br />
+                喜歡網頁開發，也喜歡寫程式。<br />
+                在寫程式的過程中遇到問題，一定要先解決當下問題才能繼續往下執行。<br />
+                在無常的人生中，有個地方可以讓你一步一腳印的走，想想就很浪漫是不是?<br />
+              </div>
+              <div class="mt-5">
+                <a
+                  href="https://issuu.com/21522/docs/0622__2018"
+                  target="_blank"
+                  class="inline-flex justify-center items-center text-yellow-600 underline underline-offset-2 hover:text-yellow-900 font-bold"
+                  ><span>大學作品集</span
+                  ><img
+                    src="img/goto.svg"
+                    alt="goto"
+                    class="ml-1 h-4 w-4 inline-block"
+                /></a>
+                ，有興趣可以看看。喜歡在大學時跟組員一起做功課的那些日子。每個同學和遇到的學弟妹和師長都是我生命中的小天使。希望他們一切都好。
+              </div>
+              <div class="mt-5">
+                因為記憶力不太好有做筆記的習慣，<a
+                  href="https://kiwijang.github.io/"
+                  target="_blank"
+                  class="inline-flex justify-center items-center text-yellow-600 underline underline-offset-2 hover:text-yellow-900 font-bold"
+                  ><span>筆記網站</span
+                  ><img
+                    src="img/goto.svg"
+                    alt="goto"
+                    class="ml-1 h-4 w-4 inline-block" /></a
+                >，搭配 Dendron 和修改官方 next.js 公版製作而成。
+              </div>
+              <div class="mt-5">
+                另外這是我的
+                <a
+                  href="https://github.com/kiwijang"
+                  target="_blank"
+                  class="inline-flex justify-center items-center text-yellow-600 underline underline-offset-2 hover:text-yellow-900 font-bold"
+                  ><span>Github</span
+                  ><img
+                    src="img/goto.svg"
+                    alt="goto"
+                    class="ml-1 h-4 w-4 inline-block" /></a
+                >。
+              </div>
+              <div class="mt-5">謝謝你看到這邊，請多多指教^^</div>
+              <div class="mt-5 flex items-center text-sm text-gray-500">
+                <img
+                  src="img/mail.svg"
+                  alt="mail"
+                  class="mr-1 h-4 w-4 inline-block"
+                />kiwijang5473@gmail.com
+              </div>
+            </div>
+
+            <div
+              class="rounded-2xl rounded-l-none overflow-hidden hidden md:block"
+            >
+              <img
+                src="img/forest.jpg"
+                alt="forest"
+                class="object-cover h-full"
+              />
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+
+    <!-- max-h-[700px] md:max-h-[800px] -->
+    <div id="hi" class="absolute top-0 justify-center mx-auto w-screen hidden lg:flex max-w-full overflow-hidden"></div>
+
+    <script src="js/bundle.js"></script>
+    <script src="js/sketch.min.js"></script>
+    <script>
+      // ----------------------------------------
+      // Particle
+      // ----------------------------------------
+
+      function Particle(x, y, radius) {
+        this.init(x, y, radius);
+      }
+
+      Particle.prototype = {
+        init: function (x, y, radius) {
+          this.alive = true;
+
+          this.radius = radius || 10;
+          this.wander = 0.15;
+          this.theta = random(TWO_PI);
+          this.drag = 0.92;
+          this.color = '#fff';
+
+          this.x = x || 0.0;
+          this.y = y || 0.0;
+
+          this.vx = 0.0;
+          this.vy = 0.0;
+        },
+
+        move: function () {
+          this.x += this.vx;
+          this.y += this.vy;
+
+          this.vx *= this.drag;
+          this.vy *= this.drag;
+
+          this.theta += random(-0.5, 0.5) * this.wander;
+          this.vx += sin(this.theta) * 0.1;
+          this.vy += cos(this.theta) * 0.1;
+
+          this.radius *= 0.96;
+          this.alive = this.radius > 0.5;
+        },
+
+        draw: function (ctx) {
+          ctx.beginPath();
+          ctx.arc(this.x, this.y, this.radius, 0, TWO_PI);
+          ctx.fillStyle = this.color;
+          ctx.fill();
+        },
+      };
+
+      // ----------------------------------------
+      // Example
+      // ----------------------------------------
+
+      var MAX_PARTICLES = 280;
+      var COLOURS = [
+        '#69D2E7',
+        '#A7DBD8',
+        '#E0E4CC',
+        '#F38630',
+        '#FA6900',
+        '#FF4E50',
+        '#F9D423',
+      ];
+
+      var particles = [];
+      var pool = [];
+
+      var demo = Sketch.create({
+        container: document.getElementById('hi'),
+        retina: 'auto',
+      });
+
+      demo.setup = function () {
+        // Set off some initial particles.
+        var i, x, y;
+
+        for (i = 0; i < 20; i++) {
+          x = demo.width * 0.5 + random(-100, 100);
+          y = demo.height * 0.5 + random(-100, 100);
+          demo.spawn(x, y);
+        }
+      };
+
+      demo.spawn = function (x, y) {
+        var particle, theta, force;
+
+        if (particles.length >= MAX_PARTICLES) pool.push(particles.shift());
+
+        particle = pool.length ? pool.pop() : new Particle();
+        particle.init(x, y, random(5, 40));
+
+        particle.wander = random(0.5, 2.0);
+        particle.color = random(COLOURS);
+        particle.drag = random(0.9, 0.99);
+
+        theta = random(TWO_PI);
+        force = random(2, 8);
+
+        particle.vx = sin(theta) * force;
+        particle.vy = cos(theta) * force;
+
+        particles.push(particle);
+      };
+
+      demo.update = function () {
+        var i, particle;
+
+        for (i = particles.length - 1; i >= 0; i--) {
+          particle = particles[i];
+
+          if (particle.alive) particle.move();
+          else pool.push(particles.splice(i, 1)[0]);
+        }
+      };
+
+      demo.draw = function () {
+        demo.globalCompositeOperation = 'lighter';
+
+        for (var i = particles.length - 1; i >= 0; i--) {
+          particles[i].draw(demo);
+        }
+      };
+
+      demo.mousemove = function () {
+        var particle, theta, force, touch, max, i, j, n;
+
+        for (i = 0, n = demo.touches.length; i < n; i++) {
+          (touch = demo.touches[i]), (max = random(1, 4));
+          for (j = 0; j < max; j++) {
+            demo.spawn(touch.x, touch.y);
+          }
+        }
+      };
+    </script>
+  </body>
+</html>
